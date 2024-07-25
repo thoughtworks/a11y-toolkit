@@ -50,6 +50,7 @@
 		"rehype-slug": "^6.0.0",
 		"remark-toc": "^9.0.0",
 		"remark-unwrap-images": "^4.0.0",
-		"shiki": "^1.2.4"
+		"shiki": "^1.2.4",
+		"sveltekit-helmet": "^1.0.3"
 	}
 }
