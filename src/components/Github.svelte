@@ -1,5 +1,5 @@
 <a
-	href="https://github.com/bernester/a11y-toolkit"
+	href="https://github.com/thoughtworks/a11y-toolkit"
 	class="title"
 	title="A11y toolkit on Github"
 	target="_blank"
