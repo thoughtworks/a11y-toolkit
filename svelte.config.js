@@ -1,5 +1,5 @@
 import { transformerNotationHighlight } from '@shikijs/transformers';
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-vercel';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { mdsvex, escapeSvelte } from 'mdsvex';
 import { createHighlighter } from 'shiki';
