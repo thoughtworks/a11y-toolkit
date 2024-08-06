@@ -5,9 +5,9 @@ import { sequence } from '@sveltejs/kit/hooks';
 export const helmetHandle = helmet({
 	contentSecurityPolicy: {
 		directives: {
-			'script-src': "'self' 'unsafe-inline'",
-		},
-	},
+			'script-src': "'self' 'unsafe-inline'"
+		}
+	}
 });
 
 export const permissionPolicy: Handle = async ({ event, resolve }) => {

@@ -15,7 +15,7 @@ const THEME = 'github-dark-default';
 let highlighterPromise = createHighlighter({
 	themes: [THEME],
 	langs: ['javascript', 'typescript', 'html', 'css']
-}).then(highlighter => {
+}).then((highlighter) => {
 	highlighter.loadLanguage('javascript', 'typescript', 'html', 'css');
 	return highlighter;
 });
